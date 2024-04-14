@@ -20,7 +20,7 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 cmake3 -L -G "Unix Makefiles" \
 -DCMAKE_BUILD_TYPE="Release" \
 -DCMAKE_INSTALL_PREFIX=${deploy_dir} \
-../src
+../..
 
 if [ $? -eq 0 ]
 then
